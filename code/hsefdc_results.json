@@ -1,0 +1,37 @@
+{
+  "gas_turbine": {
+    "simple_cycle_rated_mw": 108.0,
+    "combined_cycle_rated_mw": 148.0,
+    "simple_cycle_efficiency": 0.33,
+    "combined_cycle_efficiency": 0.5
+  },
+  "wave_array": {
+    "flux_kw_per_m": 27.6,
+    "rated_mw": 4.967,
+    "avg_mw": 1.242,
+    "capacity_factor": 0.25,
+    "share_of_supply_simple_pct": 1.14,
+    "share_of_supply_combined_pct": 0.83
+  },
+  "pue": {
+    "hse_fdc_modeled": 1.085,
+    "conventional_land_dc": 1.4,
+    "modern_best_practice": 1.15,
+    "natick_real": 1.07,
+    "aikido_target": 1.08
+  },
+  "primary_energy_efficiency_pct": {
+    "hse_fdc_simple_cycle_ccs": 25.5,
+    "hse_fdc_combined_cycle_ccs": 38.7,
+    "grid_tied": 43.0,
+    "renewable_tied_natick_style": 93.5
+  },
+  "carbon_intensity_kg_co2_per_kwh_it_load": {
+    "simple_cycle_no_ccs": 0.664,
+    "combined_cycle_no_ccs": 0.438,
+    "simple_cycle_ccs": 0.079,
+    "combined_cycle_ccs": 0.052,
+    "us_grid_average": 0.386,
+    "natick_style": 0.02
+  }
+}
